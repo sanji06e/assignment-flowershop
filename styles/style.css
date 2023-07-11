@@ -57,8 +57,9 @@ body {
   border: 0px;
   padding: 20px 40px;
   color: #fff;
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 30px;
 }
 /* featured flowers */
 .featured-images {
@@ -141,4 +142,21 @@ body {
   font-size: 18px;
   font-weight: 600;
   line-height: 35px;
+}
+/* hot deal section */
+.deal-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  margin-bottom: 100px;
+}
+.deal-info {
+  text-align: center;
+  padding-left: 200px;
+  padding-bottom: 50px;
+}
+.rose {
+  padding: 80px 150px;
 }
