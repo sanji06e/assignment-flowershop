@@ -11,7 +11,7 @@ body {
   text-align: center;
   font-size: 40px;
   font-weight: 800;
-  padding-top: 120px;
+  margin-top: 120px;
 }
 .shared-para {
   color: rgba(39, 39, 39, 0.6);
@@ -150,7 +150,6 @@ body {
   align-items: center;
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
-  margin-bottom: 100px;
 }
 .deal-info {
   text-align: center;
@@ -159,4 +158,14 @@ body {
 }
 .rose {
   padding: 80px 150px;
+}
+/* instagram section style */
+.instapic-container {
+  display: flex;
+  gap: 20px;
+  margin: 50px 175px;
+}
+.instapic {
+  width: 280px;
+  height: 330px;
 }
