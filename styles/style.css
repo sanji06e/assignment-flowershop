@@ -120,3 +120,25 @@ body {
   font-weight: 700;
   margin-top: 32px;
 }
+/* 2rd section releted styles */
+.icon-container {
+  display: flex;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  justify-content: center;
+  margin: 120px 175px;
+}
+.icon-para {
+  padding: 80px;
+  text-align: center;
+}
+.icon {
+  padding-bottom: 20px;
+}
+.icon-info {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 35px;
+}
