@@ -61,3 +61,62 @@ body {
   font-weight: 700;
 }
 /* featured flowers */
+.featured-images {
+  margin-top: 50px;
+  gap: 24px;
+  display: flex;
+  justify-content: center;
+}
+/* style for three featured images  */
+.featured-image1 {
+  width: 270px;
+  height: 350px;
+}
+.featured-image2 {
+  /width: 300px;
+  height: 300px;
+  padding-bottom: 30px;
+}
+.featured-image3 {
+  /width: 310px;
+  height: 420px;
+}
+/* style for featured image background */
+
+.featured-contents1 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  width: 370px;
+  height: 444px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.featured-contents2 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  width: 370px;
+  height: 444px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.featured-contents3 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  width: 370px;
+  height: 444px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.image-title {
+  text-align: center;
+  text-decoration: underline;
+  color: #272727;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 32px;
+}
