@@ -74,7 +74,7 @@ body {
   height: 350px;
 }
 .featured-image2 {
-  /width: 300px;
+  width: 300px;
   height: 300px;
   padding-bottom: 30px;
 }
@@ -121,7 +121,7 @@ body {
   font-weight: 700;
   margin-top: 32px;
 }
-/* 2rd section releted styles */
+/* icon section releted styles */
 .icon-container {
   display: flex;
   border-radius: 8px;
@@ -168,4 +168,46 @@ body {
 .instapic {
   width: 280px;
   height: 330px;
+}
+/* review section */
+.reviewer {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+.review-section {
+  background-color: rgba(229, 84, 115, 0.1);
+  padding: 50px 175px;
+}
+.box-container {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-around;
+  align-items: center;
+  /* gap: 50px; */
+}
+.box {
+  text-align: center;
+  border-radius: 10px;
+  padding: 50px 20px;
+  background-color: white;
+  box-shadow: 10px 10px 10px lightblue;
+}
+.review {
+  max-width: 290px;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 16px;
+  line-height: 30px;
+}
+.review-title-main {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.review-title {
+  padding: 20px;
+  font-weight: 800;
+  color: #272727;
 }
